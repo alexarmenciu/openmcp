@@ -16,7 +16,7 @@ export default function Home() {
     <div className="min-h-screen flex flex-col">
       <header className="border-b py-6 px-4 sm:px-6 lg:px-8">
         <div className="container mx-auto flex justify-between items-center">
-          <h1 className="text-2xl font-bold">OpenMCP</h1>
+          <h1 className="text-2xl font-bold">MCPronto</h1>
         </div>
       </header>
 
@@ -26,7 +26,7 @@ export default function Home() {
             Turn Any API into an MCP Server
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
-            OpenMCP provides a translation layer that allows you to expose any
+            MCPronto provides a translation layer that allows you to expose any
             API as an MCP server, giving you full control over which endpoints
             you want to share.
           </p>
@@ -47,7 +47,7 @@ export default function Home() {
 
         <section className="max-w-4xl mx-auto mb-16">
           <h2 className="text-3xl font-bold tracking-tight text-center mb-8">
-            What is OpenMCP?
+            What is MCPronto?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <Card>
@@ -59,7 +59,7 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <p>
-                  OpenMCP acts as a bridge between your existing API and the
+                  MCPronto acts as a bridge between your existing API and the
                   Model Context Protocol (MCP) standard, allowing you to
                   leverage AI capabilities without major architecture changes.
                 </p>
@@ -87,7 +87,7 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <p>
-                  OpenMCP includes robust authentication and authorization
+                  MCPronto includes robust authentication and authorization
                   mechanisms to ensure your API communications remain secure
                   when exposed as an MCP server.
                 </p>
@@ -103,7 +103,7 @@ export default function Home() {
               <CardContent>
                 <p>
                   With straightforward setup and comprehensive documentation,
-                  you can get started quickly and integrate OpenMCP into your
+                  you can get started quickly and integrate MCPronto into your
                   workflow with ease.
                 </p>
               </CardContent>
@@ -115,10 +115,10 @@ export default function Home() {
           <Card className="bg-muted/50">
             <CardHeader>
               <CardTitle className="text-center">
-                Join the OpenMCP Waitlist
+                Join the MCPronto Waitlist
               </CardTitle>
               <CardDescription className="text-center">
-                OpenMCP is currently in private beta. Sign up to be among the
+                MCPronto is currently in private beta. Sign up to be among the
                 first to get access.
               </CardDescription>
             </CardHeader>
@@ -155,7 +155,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-semibold mb-2">Connect Your API</h3>
               <p className="text-muted-foreground">
-                Integrate your existing API with the OpenMCP translation layer
+                Integrate your existing API with the MCPronto translation layer
               </p>
             </div>
             <div className="flex flex-col items-center">
@@ -186,7 +186,7 @@ export default function Home() {
 
       <footer className="border-t py-6 px-4 sm:px-6 lg:px-8">
         <div className="container mx-auto text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} OpenMCP. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} MCPronto. All rights reserved.</p>
         </div>
       </footer>
     </div>
